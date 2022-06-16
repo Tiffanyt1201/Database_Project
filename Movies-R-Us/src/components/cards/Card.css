@@ -1,0 +1,89 @@
+/*
+ * Styling of the individual program card and crew card components. 
+ */
+ 
+ .pCard{ 
+    margin: 15px;
+    background-color: white;
+    overflow: hidden;
+    height: 270px;
+    width: 180px; 
+    --webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);  
+}
+
+.pCard:hover{
+    transform: scale(1.08);
+}
+
+.pCard:hover{
+    background-color:#ebebeb;
+}
+
+/*
+ * References: 
+ *  To create grid for card layout: Make A Grid Of Boxes In CSS | 2020 https://www.youtube.com/watch?v=fKlimmu1pPM 
+ */
+.grid {
+    min-height: 100%;
+    margin-left: 260px;
+    margin-top: 40px; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid > div {
+    flex-basis: calc(20%-40px);
+}
+
+/* 
+ * References: 
+ *  To hide text and add ... : https://stackoverflow.com/questions/37132752/adding-when-text-is-too-long-in-a-div-with-only-css
+*/
+.cardTitle{
+    font-size: small;
+    font-weight: bold;
+    min-height: 17px;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+
+.favBtn{
+    margin-left: 300px; 
+    height: 30px;
+    width: 30px;
+
+}
+
+.cCard{ 
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    height: 238px;
+    --webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);  
+}
+
+.cCard:hover{
+    background-color:#ebebeb;
+    transform: scale(1.08);
+}
+
+.row {
+    margin-left: 20px;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    margin-left: 230px;
+    margin-top: 20px;
+    margin: 15px;
+    width:10px; 
+    height: 10px; 
+}
