@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 <p align="center">
   <a href="https://github.com/Fernak/Movies-R-Us/tree/main/Readme">
-    <img src="/Readme/homepage.png" alt="Logo" width="100%" height="25%">
+    <img src="Readme/homepage.png" alt="Logo" width="100%" height="25%">
   </a>
 </p>
 <p align="center">
